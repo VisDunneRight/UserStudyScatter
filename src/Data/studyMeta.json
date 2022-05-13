@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "progressbarSection": true,
+    "sessionID" : "Participant ID"
+  },
+  "pages": [
+    {
+      "type": "Radio",
+      "position": 0,
+      "storeValues":  ["type"],
+      "valuesUsed": ["proportionOrder", "sizes", "Question"]
+    },
+    {
+      "title": "All Done.",
+      "type": "Information",
+      "finish": true,
+      "html": [
+        {"p":" Please Make sure to download the results and send them to Liudas"}
+      ]
+    }
+  ]
+}
