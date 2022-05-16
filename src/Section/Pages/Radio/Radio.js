@@ -1,5 +1,5 @@
-import { Col, Button, Form, Image, Row } from "react-bootstrap";
-import { useState } from "react";
+import { Col, Button, Form, Image, Input } from "react-bootstrap";
+import { useEffect, useState } from "react";
 import { MyRow, TopImage, ImgRow, QRow } from "./style";
 
 const Radio = ({
@@ -7,11 +7,20 @@ const Radio = ({
   data,
   order,
   saveAnswer,
+  prevQuestion,
+  prevAnswer,
   nextQuestion,
   questionIndex,
 }) => {
-  const [answer, setAnswer] = useState(-1);
+  const [answer, setAnswer] = useState(prevAnswer ? prevAnswer[1] : -1);
 
+  useEffect(() => {
+    if (prevAnswer === undefined) {
+      setAnswer(-1);
+    } else {
+      setAnswer(prevAnswer[1]);
+    }
+  });
   function handleNextQuestion(event) {
     event.preventDefault();
     if (answer === -1) {
@@ -37,6 +46,20 @@ const Radio = ({
 
   function onChange(value) {
     setAnswer(value);
+  }
+  function onkeyPress(event) {
+    console.log(event);
+    if (event.charCode === 49) {
+      this.onChange(0);
+    } else if (event.charCode === 50) {
+      this.onChange(1);
+    } else if (event.charCode === 51) {
+      this.onChange(2);
+    } else if (event.charCode === 52) {
+      this.onChange(3);
+    } else if (event.charCode === 13 || event.charCode === 32) {
+      this.handleNextQuestion();
+    }
   }
 
   const typeRendering = (data) => {
@@ -125,7 +148,7 @@ const Radio = ({
       </QRow>
       <MyRow>
         <Col>
-          <Button variant="secondary" onClick={handleNextQuestion}>
+          <Button variant="secondary" onClick={prevQuestion}>
             Prev
           </Button>{" "}
         </Col>

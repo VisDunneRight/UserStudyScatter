@@ -46,10 +46,10 @@ class Section extends React.Component {
       length: data[0].length,
     });
     const questionOrder = localStorage.getItem("QuestionOrder");
-    // const progress = localStorage.getItem("Progress");
-    // const progressLabel = localStorage.getItem("ProgressLabel");
-    // const currSession = localStorage.getItem("currSession");
-    // const answers = localStorage.getItem("answers");
+    const progress = localStorage.getItem("Progress");
+    const progressLabel = localStorage.getItem("ProgressLabel");
+    const currSession = localStorage.getItem("currSession");
+    const answers = localStorage.getItem("answers");
     if (questionOrder) {
       this.setState({ order: questionOrder });
     } else {
@@ -57,20 +57,20 @@ class Section extends React.Component {
       const reorder = this.shuffle(array);
       this.setState({ order: reorder });
     }
-    // if (progress) {
-    //   this.setState({ progress: progress });
-    // }
-    // if (progressLabel) {
-    //   this.setState({ progressLabel: progressLabel });
-    // }
-    // if (currSession) {
-    //   this.setState({ currSession: JSON.parse(currSession) });
-    // } else {
-    //   this.setState({ currSession: { currPage: 0, id: 0 } });
-    // }
-    // if (answers) {
-    //   this.setState({ answers: JSON.parse(answers) });
-    // }
+    if (progress) {
+      this.setState({ progress: progress });
+    }
+    if (progressLabel) {
+      this.setState({ progressLabel: progressLabel });
+    }
+    if (currSession) {
+      this.setState({ currSession: JSON.parse(currSession) });
+    } else {
+      this.setState({ currSession: { currPage: 0, id: 0 } });
+    }
+    if (answers) {
+      this.setState({ answers: JSON.parse(answers) });
+    }
   }
 
   nextPage = () => {
@@ -103,19 +103,29 @@ class Section extends React.Component {
     this.setState({ progress: value, progressLabel: label });
   };
 
-  nextQuestion = () => {
+  updatePage = (value) => {
     const currSession = this.state.currSession;
-    currSession.questionIndex += 1;
-    if (currSession.questionIndex === this.length) {
+    const size = this.state.length;
+    currSession.questionIndex += value;
+    console.log(currSession, this.state.answers);
+    if (currSession.questionIndex === size) {
       this.nextPage();
       return;
     }
     this.setProgressBar(
-      (currSession.questionIndex / this.length) * 100,
-      "Question " + currSession.questionIndex + " / " + this.length
+      (currSession.questionIndex / size) * 100,
+      "Question " + currSession.questionIndex + " / " + size
     );
     localStorage.setItem("currSession", JSON.stringify(currSession));
     this.setState({ currSession: currSession });
+  };
+
+  prevQuestion = () => {
+    this.updatePage(-1);
+  };
+
+  nextQuestion = () => {
+    this.updatePage(1);
   };
 
   grabInformation = (data) => {
@@ -132,7 +142,11 @@ class Section extends React.Component {
 
   saveAnswer = (field, answer) => {
     const newAnswers = this.state.answers.slice();
-    newAnswers.push([field, answer]);
+    if (this.state.currSession.questionIndex > newAnswers.length - 1) {
+      newAnswers.push([field, answer]);
+    } else {
+      newAnswers[this.state.currSession.questionIndex] = [field, answer];
+    }
     localStorage.setItem("answers", JSON.stringify(newAnswers));
     this.setState({ answers: newAnswers });
     return Promise.resolve(newAnswers);
@@ -174,7 +188,9 @@ class Section extends React.Component {
             grabInformation={this.grabInformation}
             saveAnswer={this.saveAnswer}
             nextPage={this.nextPage}
+            prevQuestion={this.prevQuestion}
             nextQuestion={this.nextQuestion}
+            answers={this.state.answers}
             exportStudy={this.exportStudy}
             results={this.state.results}
             questionIndex={

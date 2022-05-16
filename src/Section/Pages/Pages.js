@@ -13,7 +13,9 @@ const Option = ({
   saveAnswer,
   questionIndex,
   exportStudy,
+  prevQuestion,
   nextQuestion,
+  answers,
   nextPage,
   results,
 }) => {
@@ -52,7 +54,9 @@ const Option = ({
         order={order}
         saveAnswer={saveAnswer}
         questionIndex={questionIndex}
+        prevQuestion={prevQuestion}
         nextQuestion={nextQuestion}
+        prevAnswer={answers[questionIndex]}
       />
     );
   } else if (page.type === "Break") {
@@ -72,7 +76,9 @@ const Pages = ({
   saveAnswer,
   nextPage,
   exportStudy,
+  prevQuestion,
   nextQuestion,
+  answers,
   questionIndex,
   results,
 }) => {
@@ -88,7 +94,9 @@ const Pages = ({
           saveAnswer={saveAnswer}
           exportStudy={exportStudy}
           nextPage={nextPage}
+          prevQuestion={prevQuestion}
           nextQuestion={nextQuestion}
+          answers={answers}
           questionIndex={questionIndex}
           results={results}
         />
