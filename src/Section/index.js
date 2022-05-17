@@ -66,7 +66,7 @@ class Section extends React.Component {
     if (currSession) {
       this.setState({ currSession: JSON.parse(currSession) });
     } else {
-      this.setState({ currSession: { currPage: 0, id: 0 } });
+      this.setState({ currSession: { currPage: 0, id: 0, questionIndex: 0 } });
     }
     if (answers) {
       this.setState({ answers: JSON.parse(answers) });
@@ -173,7 +173,8 @@ class Section extends React.Component {
           <Navbar expand="lg" variant="light" bg="light">
             <MyProgressBar
               now={this.state.progress}
-              label={this.state.progressLabel}
+              label={this.state.progress + "%"}
+              variant="info"
             />
           </Navbar>
           <Pages

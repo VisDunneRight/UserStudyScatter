@@ -20,7 +20,7 @@ const Radio = ({
     } else {
       setAnswer(prevAnswer[1]);
     }
-  });
+  }, [prevAnswer]);
   function handleNextQuestion(event) {
     event.preventDefault();
     if (answer === -1) {
