@@ -45,6 +45,7 @@ class Section extends React.Component {
       siteStructure: siteStructure,
       length: data[0].length,
     });
+    console.log(studyMeta, this.state.currSession);
     const questionOrder = localStorage.getItem("QuestionOrder");
     const progress = localStorage.getItem("Progress");
     const progressLabel = localStorage.getItem("ProgressLabel");
@@ -167,6 +168,7 @@ class Section extends React.Component {
   };
 
   render() {
+    console.log(this.state.currSession);
     return (
       <MyDiv>
         <MyContainer>

@@ -1,2404 +1,2884 @@
 {
-  "0":[
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Laplace_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Geometric_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AHP_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Geometric_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_DAWA_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_DAWA_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_DAWA_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_DAWA_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Laplace_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AGrid_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AHP_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AHP_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AHP_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Geometric_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_DAWA_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Geometric_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_DAWA_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AHP_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Laplace_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Laplace_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AGrid_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_DAWA_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AGrid_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Geometric_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AHP_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Laplace_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Laplace_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Laplace_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AGrid_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AGrid_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_DAWA_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AGrid_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Laplace_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Laplace_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AHP_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AGrid_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_DAWA_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_DAWA_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AGrid_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AGrid_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Laplace_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Geometric_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Laplace_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Geometric_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Geometric_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_DAWA_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Geometric_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AHP_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Laplace_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AHP_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Geometric_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AGrid_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Geometric_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Geometric_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AGrid_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AHP_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AHP_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AHP_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AGrid_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_DAWA_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AGrid_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Geometric_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Geometric_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AGrid_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AHP_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AHP_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AHP_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AGrid_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_DAWA_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_DAWA_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Geometric_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AHP_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Laplace_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AHP_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Geometric_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_DAWA_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AGrid_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AGrid_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Laplace_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Geometric_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Laplace_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Geometric_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Geometric_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AGrid_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AGrid_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_DAWA_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Laplace_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Laplace_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AHP_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AGrid_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_DAWA_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Geometric_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AHP_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Laplace_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Laplace_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Laplace_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AGrid_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_DAWA_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AHP_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Laplace_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Laplace_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_DAWA_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AGrid_.01_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AGrid_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Laplace_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_DAWA_.05_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AGrid_.025_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_AHP_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AHP_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_AHP_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Geometric_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_DAWA_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_Geometric_.1_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Laplace_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_Geometric_.01_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_clusters_AHP_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_Geometric_.025_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_DAWA_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_correlation_DAWA_.05_16.png",
-      "binnedImg": "1_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "1",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "1_Scattered_None_None_None.png",
-      "algorithmImg": "1_distribution_DAWA_.1_32.png",
-      "binnedImg": "1_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Geometric_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
+  "0": [
     {
       "chartId": "0",
       "questionType": "correlation",
       "algorithm": "AGrid",
-      "Privacy": ".1",
+      "Privacy": "0.01",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AGrid_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Laplace_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Laplace_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Laplace_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_DAWA_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Geometric_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Geometric_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AHP_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Geometric_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AHP_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AGrid_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AHP_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AGrid_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Geometric_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Geometric_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AHP_.1_32.png",
+      "algorithmImg": "0_correlation_AGrid_0.01_32.png",
       "binnedImg": "0_Binned_None_None_32.png"
     },
     {
       "chartId": "0",
       "questionType": "correlation",
       "algorithm": "AGrid",
-      "Privacy": ".025",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_AGrid_0.01_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AGrid_.025_32.png",
+      "algorithmImg": "0_correlation_AGrid_0.05_32.png",
       "binnedImg": "0_Binned_None_None_32.png"
     },
     {
       "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".01",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_AGrid_0.05_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AHP_.01_32.png",
+      "algorithmImg": "0_correlation_AGrid_0.1_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_AGrid_0.1_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_AGrid_0.5_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_AGrid_0.5_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_AHP_0.01_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_AHP_0.01_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_AHP_0.05_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_AHP_0.05_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_AHP_0.1_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_AHP_0.1_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_AHP_0.5_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_AHP_0.5_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_DAWA_0.01_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_DAWA_0.01_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_DAWA_0.05_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_DAWA_0.05_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_DAWA_0.1_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_DAWA_0.1_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_DAWA_0.5_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_DAWA_0.5_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_Geometric_0.01_32.png",
       "binnedImg": "0_Binned_None_None_32.png"
     },
     {
       "chartId": "0",
       "questionType": "correlation",
       "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Geometric_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Laplace_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AGrid_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_DAWA_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Laplace_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AHP_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AGrid_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AGrid_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_DAWA_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_Geometric_0.01_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
     },
     {
       "chartId": "0",
       "questionType": "correlation",
       "algorithm": "Geometric",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Geometric_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".01",
+      "Privacy": "0.05",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Geometric_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Geometric_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AHP_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AHP_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_DAWA_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Laplace_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_DAWA_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AHP_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AHP_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Geometric_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_DAWA_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AGrid_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AGrid_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_DAWA_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_DAWA_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_DAWA_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Laplace_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AGrid_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Laplace_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_DAWA_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Laplace_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AHP_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Laplace_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AHP_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_DAWA_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AGrid_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Geometric_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AGrid_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Laplace_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_DAWA_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Laplace_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_DAWA_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AHP_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AGrid_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AGrid_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Geometric_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Laplace_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_DAWA_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Laplace_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Laplace_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AGrid_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Laplace_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Laplace_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_DAWA_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AHP_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Laplace_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_DAWA_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Laplace",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Laplace_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_DAWA_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AHP_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AHP_.025_32.png",
+      "algorithmImg": "0_correlation_Geometric_0.05_32.png",
       "binnedImg": "0_Binned_None_None_32.png"
     },
     {
       "chartId": "0",
       "questionType": "correlation",
       "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Geometric_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_DAWA_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AGrid_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_DAWA_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AGrid_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_DAWA_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_DAWA_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_Geometric_0.05_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
     },
     {
       "chartId": "0",
       "questionType": "correlation",
       "algorithm": "Geometric",
-      "Privacy": ".01",
+      "Privacy": "0.1",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Geometric_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Geometric_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Geometric_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AHP_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AHP_.05_32.png",
+      "algorithmImg": "0_correlation_Geometric_0.1_32.png",
       "binnedImg": "0_Binned_None_None_32.png"
     },
     {
       "chartId": "0",
       "questionType": "correlation",
-      "algorithm": "DAWA",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_DAWA_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_Geometric_0.1_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
     },
     {
       "chartId": "0",
       "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AGrid_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_Geometric_0.5_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
     },
     {
       "chartId": "0",
-      "questionType": "clusters",
+      "questionType": "correlation",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_Geometric_0.5_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
       "algorithm": "Laplace",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Laplace_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AHP_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".01",
+      "Privacy": "0.01",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AGrid_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AGrid_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "DAWA",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_DAWA_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AHP_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AGrid_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "Geometric",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Geometric_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Geometric_.05_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
-      "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AHP_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AHP",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AHP_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "AGrid",
-      "Privacy": ".025",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AGrid_.025_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Geometric_.05_32.png",
+      "algorithmImg": "0_correlation_Laplace_0.01_32.png",
       "binnedImg": "0_Binned_None_None_32.png"
     },
     {
       "chartId": "0",
       "questionType": "correlation",
       "algorithm": "Laplace",
-      "Privacy": ".025",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_Laplace_0.01_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Laplace_.025_32.png",
+      "algorithmImg": "0_correlation_Laplace_0.05_32.png",
       "binnedImg": "0_Binned_None_None_32.png"
     },
     {
       "chartId": "0",
       "questionType": "correlation",
-      "algorithm": "Geometric",
-      "Privacy": ".025",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_Laplace_0.05_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Geometric_.025_32.png",
+      "algorithmImg": "0_correlation_Laplace_0.1_32.png",
       "binnedImg": "0_Binned_None_None_32.png"
     },
     {
       "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_Laplace_0.1_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "0_correlation_Laplace_0.5_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "0_correlation_Laplace_0.5_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_AGrid_0.01_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_AGrid_0.01_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_AGrid_0.05_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_AGrid_0.05_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_AGrid_0.1_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_AGrid_0.1_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_AGrid_0.5_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_AGrid_0.5_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_AHP_0.01_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_AHP_0.01_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_AHP_0.05_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_AHP_0.05_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_AHP_0.1_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_AHP_0.1_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_AHP_0.5_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_AHP_0.5_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_DAWA_0.01_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_DAWA_0.01_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_DAWA_0.05_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_DAWA_0.05_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_DAWA_0.1_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_DAWA_0.1_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_DAWA_0.5_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_DAWA_0.5_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_Geometric_0.01_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_Geometric_0.01_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_Geometric_0.05_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_Geometric_0.05_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_Geometric_0.1_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_Geometric_0.1_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_Geometric_0.5_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_Geometric_0.5_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_Laplace_0.01_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_Laplace_0.01_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_Laplace_0.05_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_Laplace_0.05_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_Laplace_0.1_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_Laplace_0.1_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "0_distribution_Laplace_0.5_32.png",
+      "binnedImg": "0_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "0",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "0_distribution_Laplace_0.5_64.png",
+      "binnedImg": "0_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_AGrid_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_AGrid_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_AGrid_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_AGrid_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_AGrid_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_AGrid_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_AGrid_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_AGrid_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_AHP_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_AHP_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_AHP_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_AHP_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_AHP_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_AHP_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_AHP_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_AHP_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
       "questionType": "clusters",
       "algorithm": "DAWA",
-      "Privacy": ".01",
+      "Privacy": "0.01",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_DAWA_.01_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
+      "algorithmImg": "2_clusters_DAWA_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
     },
     {
-      "chartId": "0",
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_DAWA_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_DAWA_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_DAWA_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_DAWA_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_DAWA_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_DAWA_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_DAWA_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
       "questionType": "clusters",
       "algorithm": "Geometric",
-      "Privacy": ".025",
+      "Privacy": "0.01",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Geometric_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
+      "algorithmImg": "2_clusters_Geometric_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
     },
     {
-      "chartId": "0",
+      "chartId": "2",
       "questionType": "clusters",
-      "algorithm": "AHP",
-      "Privacy": ".025",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_AHP_.025_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
-    },
-    {
-      "chartId": "0",
-      "questionType": "distribution",
       "algorithm": "Geometric",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Geometric_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_Geometric_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
     },
     {
-      "chartId": "0",
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_Geometric_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_Geometric_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_Geometric_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_Geometric_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_Geometric_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_Geometric_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_Laplace_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_Laplace_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_Laplace_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_Laplace_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_Laplace_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_Laplace_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_clusters_Laplace_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_clusters_Laplace_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_AGrid_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_AGrid_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_AGrid_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_AGrid_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_AGrid_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_AGrid_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_AGrid_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_AGrid_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
       "questionType": "correlation",
       "algorithm": "AHP",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AHP_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_AHP_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
     },
     {
-      "chartId": "0",
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_AHP_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_AHP_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_AHP_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_AHP_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_AHP_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_AHP_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_AHP_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_DAWA_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_DAWA_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_DAWA_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_DAWA_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_DAWA_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_DAWA_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_DAWA_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_DAWA_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_Geometric_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_Geometric_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_Geometric_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_Geometric_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_Geometric_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_Geometric_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_Geometric_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_Geometric_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_Laplace_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_Laplace_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_Laplace_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_Laplace_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_Laplace_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_Laplace_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_correlation_Laplace_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "correlation",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_correlation_Laplace_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
       "questionType": "distribution",
       "algorithm": "AGrid",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_AGrid_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_AGrid_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
     },
     {
-      "chartId": "0",
-      "questionType": "correlation",
+      "chartId": "2",
+      "questionType": "distribution",
       "algorithm": "AGrid",
-      "Privacy": ".1",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_AGrid_.1_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_AGrid_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
     },
     {
-      "chartId": "0",
-      "questionType": "clusters",
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_AGrid_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_AGrid_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_AGrid_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_AGrid_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_AGrid_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_AGrid_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_AHP_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_AHP_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_AHP_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_AHP_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_AHP_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_AHP_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_AHP_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_AHP_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_DAWA_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_DAWA_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_DAWA_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_DAWA_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_DAWA_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_DAWA_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_DAWA_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_DAWA_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
       "algorithm": "Geometric",
-      "Privacy": ".1",
+      "Privacy": "0.01",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Geometric_.1_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
+      "algorithmImg": "2_distribution_Geometric_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
     },
     {
-      "chartId": "0",
-      "questionType": "clusters",
-      "algorithm": "Laplace",
-      "Privacy": ".05",
-      "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_clusters_Laplace_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_Geometric_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
     },
     {
-      "chartId": "0",
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_Geometric_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_Geometric_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_Geometric_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_Geometric_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_Geometric_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_Geometric_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
       "questionType": "distribution",
       "algorithm": "Laplace",
-      "Privacy": ".01",
-      "Bin": "16",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_distribution_Laplace_.01_16.png",
-      "binnedImg": "0_Binned_None_None_16.png"
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_Laplace_0.01_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
     },
     {
-      "chartId": "0",
-      "questionType": "correlation",
+      "chartId": "2",
+      "questionType": "distribution",
       "algorithm": "Laplace",
-      "Privacy": ".05",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_Laplace_0.01_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
       "Bin": "32",
-      "scatteredImg": "0_Scattered_None_None_None.png",
-      "algorithmImg": "0_correlation_Laplace_.05_32.png",
-      "binnedImg": "0_Binned_None_None_32.png"
+      "algorithmImg": "2_distribution_Laplace_0.05_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_Laplace_0.05_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_Laplace_0.1_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_Laplace_0.1_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "2_distribution_Laplace_0.5_32.png",
+      "binnedImg": "2_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "2",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "2_distribution_Laplace_0.5_64.png",
+      "binnedImg": "2_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_AGrid_0.01_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_AGrid_0.01_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_AGrid_0.05_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_AGrid_0.05_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_AGrid_0.1_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_AGrid_0.1_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_AGrid_0.5_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_AGrid_0.5_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_AHP_0.01_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_AHP_0.01_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_AHP_0.05_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_AHP_0.05_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_AHP_0.1_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_AHP_0.1_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_AHP_0.5_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_AHP_0.5_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_DAWA_0.01_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_DAWA_0.01_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_DAWA_0.05_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_DAWA_0.05_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_DAWA_0.1_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_DAWA_0.1_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_DAWA_0.5_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_DAWA_0.5_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_Geometric_0.01_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_Geometric_0.01_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_Geometric_0.05_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_Geometric_0.05_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_Geometric_0.1_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_Geometric_0.1_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_Geometric_0.5_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_Geometric_0.5_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_Laplace_0.01_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_Laplace_0.01_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_Laplace_0.05_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_Laplace_0.05_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_Laplace_0.1_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_Laplace_0.1_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "3_clusters_Laplace_0.5_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "clusters",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "3_clusters_Laplace_0.5_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_AGrid_0.01_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_AGrid_0.01_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_AGrid_0.05_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_AGrid_0.05_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_AGrid_0.1_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_AGrid_0.1_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_AGrid_0.5_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_AGrid_0.5_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_AHP_0.01_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_AHP_0.01_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_AHP_0.05_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_AHP_0.05_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_AHP_0.1_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_AHP_0.1_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_AHP_0.5_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_AHP_0.5_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_DAWA_0.01_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_DAWA_0.01_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_DAWA_0.05_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_DAWA_0.05_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_DAWA_0.1_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_DAWA_0.1_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_DAWA_0.5_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_DAWA_0.5_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_Geometric_0.01_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_Geometric_0.01_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_Geometric_0.05_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_Geometric_0.05_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_Geometric_0.1_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_Geometric_0.1_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_Geometric_0.5_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_Geometric_0.5_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_Laplace_0.01_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_Laplace_0.01_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_Laplace_0.05_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_Laplace_0.05_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_Laplace_0.1_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_Laplace_0.1_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "3_distribution_Laplace_0.5_32.png",
+      "binnedImg": "3_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "3",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "3_distribution_Laplace_0.5_64.png",
+      "binnedImg": "3_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_AGrid_0.01_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_AGrid_0.01_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_AGrid_0.05_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_AGrid_0.05_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_AGrid_0.1_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_AGrid_0.1_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_AGrid_0.5_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AGrid",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_AGrid_0.5_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_AHP_0.01_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_AHP_0.01_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_AHP_0.05_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_AHP_0.05_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_AHP_0.1_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_AHP_0.1_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_AHP_0.5_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "AHP",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_AHP_0.5_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_DAWA_0.01_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_DAWA_0.01_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_DAWA_0.05_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_DAWA_0.05_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_DAWA_0.1_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_DAWA_0.1_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_DAWA_0.5_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "DAWA",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_DAWA_0.5_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_Geometric_0.01_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_Geometric_0.01_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_Geometric_0.05_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_Geometric_0.05_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_Geometric_0.1_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_Geometric_0.1_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_Geometric_0.5_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Geometric",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_Geometric_0.5_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_Laplace_0.01_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.01",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_Laplace_0.01_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_Laplace_0.05_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.05",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_Laplace_0.05_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_Laplace_0.1_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.1",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_Laplace_0.1_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "32",
+      "algorithmImg": "9_distribution_Laplace_0.5_32.png",
+      "binnedImg": "9_Binned_None_None_32.png"
+    },
+    {
+      "chartId": "9",
+      "questionType": "distribution",
+      "algorithm": "Laplace",
+      "Privacy": "0.5",
+      "Bin": "64",
+      "algorithmImg": "9_distribution_Laplace_0.5_64.png",
+      "binnedImg": "9_Binned_None_None_64.png"
     }
   ]
 }

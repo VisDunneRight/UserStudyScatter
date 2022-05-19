@@ -19,7 +19,10 @@ const Option = ({
   nextPage,
   results,
 }) => {
-  if (page.type === "Demographic") {
+  console.log(page);
+  if (page === undefined) {
+    return <></>;
+  } else if (page.type === "Demographic") {
     return (
       <Demographics
         page={page}

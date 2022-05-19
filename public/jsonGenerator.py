@@ -17,10 +17,10 @@ for folder in subfolders:
       token = file.split(".png")[0].split("_")
       if token[2] != 'None':
         chart = {"chartId":token[0], "questionType": token[1], 'algorithm': token[2], "Privacy": token[3], "Bin":token[4]}
-        chart['scatteredImg'] = token[0] + "_" + "Scattered_None_None_None.png"
+      
         chart['algorithmImg'] = file
         chart['binnedImg'] = token[0]+"_Binned_None_None_" + token[4] + ".png"
         study.append(chart)
-
-with open("studyData.json", "w") as outfile:
+print("hey")
+with open("./src/Data/studyData.json", "w") as outfile:
     json.dump(study, outfile, indent=2)

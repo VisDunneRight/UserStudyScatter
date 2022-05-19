@@ -64,27 +64,28 @@ const Radio = ({
 
   const typeRendering = (data) => {
     switch (data.questionType) {
-      case "clusters":
+      case "distribution":
         return (
           <h4>
-            The distribution of points in space for the graph on the right is
-            comparable the graphs on the left, including the visibility of
-            manifolds and the relative density of each region.
+            <b>Distribution: </b>The distribution of points in space for the
+            graph on the right is comparable the graphs on the left, including
+            the visibility of manifolds and the relative density of each region.
           </h4>
         );
       case "correlation":
         return (
           <h4>
-            The graph on the right preserves the level of dependence between the
-            two attributes—including non-linear dependence.
+            <b>Correlation: </b>The graph on the right preserves the level of
+            dependence between the two attributes—including non-linear
+            dependence.
           </h4>
         );
-      case "distribution":
+      case "clusters":
         return (
           <h4>
-            The clusters visible in the graph on the left—and no other
-            clusters—are visible on the graph on the right and occur in the same
-            places.
+            <b>Clusters: </b>The clusters visible in the graph on the left—and
+            no other clusters—are visible on the graph on the right and occur in
+            the same places.
           </h4>
         );
       default:
@@ -97,20 +98,21 @@ const Radio = ({
 
   return (
     <>
-      <MyRow>{typeRendering(currQuestion)}</MyRow>
-
       <ImgRow>
         <Col>
-          <TopImage
+          {/* <TopImage
             src={folderLoc + currQuestion["scatteredImg"]}
             width="400px"
-          />
-          <Image src={folderLoc + currQuestion["binnedImg"]} width="400px" />
+          /> */}
+          <div style={{ position: "absolute", left: "30%" }}>Original</div>
+          <Image src={folderLoc + currQuestion["binnedImg"]} width="600px" />
         </Col>
         <Col>
-          <Image src={folderLoc + currQuestion["algorithmImg"]} width="400px" />
+          <div style={{ position: "absolute", left: "65%" }}>Private</div>
+          <Image src={folderLoc + currQuestion["algorithmImg"]} width="600px" />
         </Col>
       </ImgRow>
+      <MyRow>{typeRendering(currQuestion)}</MyRow>
       <MyRow>
         <br />
       </MyRow>
