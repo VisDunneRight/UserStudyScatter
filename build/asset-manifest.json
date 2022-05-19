@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/UserStudyScatter/static/css/main.3c1a412a.chunk.css",
+    "main.js": "/UserStudyScatter/static/js/main.87f8bd60.chunk.js",
+    "main.js.map": "/UserStudyScatter/static/js/main.87f8bd60.chunk.js.map",
+    "runtime-main.js": "/UserStudyScatter/static/js/runtime-main.7ac6774f.js",
+    "runtime-main.js.map": "/UserStudyScatter/static/js/runtime-main.7ac6774f.js.map",
+    "static/css/2.c5717053.chunk.css": "/UserStudyScatter/static/css/2.c5717053.chunk.css",
+    "static/js/2.c1d5fd19.chunk.js": "/UserStudyScatter/static/js/2.c1d5fd19.chunk.js",
+    "static/js/2.c1d5fd19.chunk.js.map": "/UserStudyScatter/static/js/2.c1d5fd19.chunk.js.map",
+    "static/js/3.9285c4c9.chunk.js": "/UserStudyScatter/static/js/3.9285c4c9.chunk.js",
+    "static/js/3.9285c4c9.chunk.js.map": "/UserStudyScatter/static/js/3.9285c4c9.chunk.js.map",
+    "index.html": "/UserStudyScatter/index.html",
+    "static/css/2.c5717053.chunk.css.map": "/UserStudyScatter/static/css/2.c5717053.chunk.css.map",
+    "static/css/main.3c1a412a.chunk.css.map": "/UserStudyScatter/static/css/main.3c1a412a.chunk.css.map",
+    "static/js/2.c1d5fd19.chunk.js.LICENSE.txt": "/UserStudyScatter/static/js/2.c1d5fd19.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ac6774f.js",
+    "static/css/2.c5717053.chunk.css",
+    "static/js/2.c1d5fd19.chunk.js",
+    "static/css/main.3c1a412a.chunk.css",
+    "static/js/main.87f8bd60.chunk.js"
+  ]
+}
