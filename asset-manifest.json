@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/UserStudyTemplate/static/css/main.3c1a412a.chunk.css",
+    "main.js": "/UserStudyTemplate/static/js/main.7234580f.chunk.js",
+    "main.js.map": "/UserStudyTemplate/static/js/main.7234580f.chunk.js.map",
+    "runtime-main.js": "/UserStudyTemplate/static/js/runtime-main.2a2c2e90.js",
+    "runtime-main.js.map": "/UserStudyTemplate/static/js/runtime-main.2a2c2e90.js.map",
+    "static/css/2.c5717053.chunk.css": "/UserStudyTemplate/static/css/2.c5717053.chunk.css",
+    "static/js/2.a8e2a806.chunk.js": "/UserStudyTemplate/static/js/2.a8e2a806.chunk.js",
+    "static/js/2.a8e2a806.chunk.js.map": "/UserStudyTemplate/static/js/2.a8e2a806.chunk.js.map",
+    "static/js/3.9285c4c9.chunk.js": "/UserStudyTemplate/static/js/3.9285c4c9.chunk.js",
+    "static/js/3.9285c4c9.chunk.js.map": "/UserStudyTemplate/static/js/3.9285c4c9.chunk.js.map",
+    "index.html": "/UserStudyTemplate/index.html",
+    "static/css/2.c5717053.chunk.css.map": "/UserStudyTemplate/static/css/2.c5717053.chunk.css.map",
+    "static/css/main.3c1a412a.chunk.css.map": "/UserStudyTemplate/static/css/main.3c1a412a.chunk.css.map",
+    "static/js/2.a8e2a806.chunk.js.LICENSE.txt": "/UserStudyTemplate/static/js/2.a8e2a806.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a2c2e90.js",
+    "static/css/2.c5717053.chunk.css",
+    "static/js/2.a8e2a806.chunk.js",
+    "static/css/main.3c1a412a.chunk.css",
+    "static/js/main.7234580f.chunk.js"
+  ]
+}
