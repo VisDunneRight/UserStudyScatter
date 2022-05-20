@@ -3,7 +3,7 @@ import studyData from "../Data/studyData.json";
 import studyMeta from "../Data/studyMeta.json";
 import Pages from "./Pages/Pages";
 import { MyContainer, MyDiv, MyProgressBar } from "./style";
-import { Navbar } from "react-bootstrap";
+import { Navbar, Row, Col, Button } from "react-bootstrap";
 
 class Section extends React.Component {
   state = {
@@ -45,17 +45,18 @@ class Section extends React.Component {
       siteStructure: siteStructure,
       length: data[0].length,
     });
-    console.log(studyMeta, this.state.currSession);
-    const questionOrder = localStorage.getItem("QuestionOrder");
+    const questionOrder = localStorage.getItem("questionOrder");
     const progress = localStorage.getItem("Progress");
     const progressLabel = localStorage.getItem("ProgressLabel");
     const currSession = localStorage.getItem("currSession");
     const answers = localStorage.getItem("answers");
+
     if (questionOrder) {
-      this.setState({ order: questionOrder });
+      this.setState({ order: questionOrder.split(",") });
     } else {
       var array = [...Array(data[0].length).keys()];
       const reorder = this.shuffle(array);
+      localStorage.setItem("questionOrder", reorder);
       this.setState({ order: reorder });
     }
     if (progress) {
@@ -107,8 +108,11 @@ class Section extends React.Component {
   updatePage = (value) => {
     const currSession = this.state.currSession;
     const size = this.state.length;
-    currSession.questionIndex += value;
-    console.log(currSession, this.state.answers);
+    if (currSession.questionIndex + value < 0) {
+      currSession.questionIndex = 0;
+    } else {
+      currSession.questionIndex += value;
+    }
     if (currSession.questionIndex === size) {
       this.nextPage();
       return;
@@ -167,8 +171,15 @@ class Section extends React.Component {
     FileSaver.saveAs(blob, "user" + this.state.currSession.id + ".json");
   };
 
+  backupStudy = () => {
+    var FileSaver = require("file-saver");
+    var jsonse = JSON.stringify(this.state, null, 2);
+    var blob = new Blob([jsonse], { type: "application/json" });
+    FileSaver.saveAs(blob, "user" + this.state.currSession.id + ".json");
+  };
+  loadBackup = () => {};
+
   render() {
-    console.log(this.state.currSession);
     return (
       <MyDiv>
         <MyContainer>
@@ -179,6 +190,18 @@ class Section extends React.Component {
               variant="info"
             />
           </Navbar>
+          <Row style={{ alignItems: "" }}>
+            {/* <Col>
+              <Button variant="secondary" size="sm" onClick={this.loadBackup}>
+                Import
+              </Button>
+            </Col> */}
+            <Col sm={{ span: 1 }}>
+              <Button variant="secondary" size="sm" onClick={this.backupStudy}>
+                Backup
+              </Button>
+            </Col>
+          </Row>
           <Pages
             siteStructure={this.state.siteStructure}
             currPage={

@@ -1,5 +1,5 @@
 import { Col, Button, Form, Image, Input } from "react-bootstrap";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { MyRow, TopImage, ImgRow, QRow } from "./style";
 
 const Radio = ({
@@ -13,7 +13,6 @@ const Radio = ({
   questionIndex,
 }) => {
   const [answer, setAnswer] = useState(prevAnswer ? prevAnswer[1] : -1);
-
   useEffect(() => {
     if (prevAnswer === undefined) {
       setAnswer(-1);
@@ -21,6 +20,7 @@ const Radio = ({
       setAnswer(prevAnswer[1]);
     }
   }, [prevAnswer]);
+
   function handleNextQuestion(event) {
     event.preventDefault();
     if (answer === -1) {
@@ -68,7 +68,7 @@ const Radio = ({
         return (
           <h4>
             <b>Distribution: </b>The distribution of points in space for the
-            graph on the right is comparable the graphs on the left, including
+            graph on the right is comparable the graph on the left, including
             the visibility of manifolds and the relative density of each region.
           </h4>
         );
@@ -92,7 +92,33 @@ const Radio = ({
         throw new Error("Missing type of testing Section.");
     }
   };
+
+  const handleKeyPress = useCallback((event) => {
+    if (event.key === "1") {
+      setAnswer(0);
+    } else if (event.key === "2") {
+      setAnswer(1);
+    } else if (event.key === "3") {
+      setAnswer(2);
+    } else if (event.key === "4") {
+      setAnswer(3);
+    } else if (event.key === "Enter" || event.key === " ") {
+      handleNextQuestion(event);
+    }
+  }, []);
+
+  useEffect(() => {
+    // attach the event listener
+    document.addEventListener("keydown", handleKeyPress);
+
+    // remove the event listener
+    return () => {
+      document.removeEventListener("keydown", handleKeyPress);
+    };
+  }, [handleKeyPress]);
+
   var currQuestion = data[order[questionIndex]];
+  // console.log(questionIndex, currQuestion);
   var folderLoc =
     process.env.PUBLIC_URL + "/Chart" + currQuestion["chartId"] + "/";
 

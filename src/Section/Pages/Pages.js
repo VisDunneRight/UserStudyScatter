@@ -19,7 +19,6 @@ const Option = ({
   nextPage,
   results,
 }) => {
-  console.log(page);
   if (page === undefined) {
     return <></>;
   } else if (page.type === "Demographic") {
