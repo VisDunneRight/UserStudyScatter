@@ -17,23 +17,96 @@ class Section extends React.Component {
     results: [],
   };
 
-  shuffle = (array) => {
+  shuffle = (array, data) => {
+    let correlationIndex = [];
+    let clusterIndex = [];
+    let distributionIndex = [];
     let currentIndex = array.length,
       randomIndex;
-
+    // console.log(randomIndex);
     // While there remain elements to shuffle.
     while (currentIndex != 0) {
       // Pick a remaining element.
+      let tasks = ["correlation", "clusters", "distribution"];
       randomIndex = Math.floor(Math.random() * currentIndex);
+
+      // console.log(data[0]);
+      // console.log(data[0][currentIndex - 1]);
+      if (data[0][currentIndex - 1]["questionType"] === "correlation") {
+        correlationIndex.push(currentIndex);
+      }
+      if (data[0][currentIndex - 1]["questionType"] === "clusters") {
+        clusterIndex.push(currentIndex);
+      }
+      if (data[0][currentIndex - 1]["questionType"] === "distribution") {
+        distributionIndex.push(currentIndex);
+      }
+
       currentIndex--;
+      // console.log(currentIndex);
 
       // And swap it with the current element.
-      [array[currentIndex], array[randomIndex]] = [
-        array[randomIndex],
-        array[currentIndex],
+      // [array[currentIndex], array[randomIndex]] = [
+      //   array[randomIndex],
+      //   array[currentIndex],
+      // ];
+    }
+
+    let corrIndex = correlationIndex.length,
+      randCorrIndex;
+    while (corrIndex != 0) {
+      // Pick a remaining element.
+      randCorrIndex = Math.floor(Math.random() * corrIndex);
+
+      // console.log(data[0]);
+      // console.log(data[0][currentIndex - 1]);
+
+      corrIndex--;
+
+      // And swap it with the current element.
+      [correlationIndex[corrIndex], correlationIndex[randCorrIndex]] = [
+        correlationIndex[randCorrIndex],
+        correlationIndex[corrIndex],
       ];
     }
 
+    let clustIndex = clusterIndex.length,
+      randClustIndex;
+    while (clustIndex != 0) {
+      // Pick a remaining element.
+      randClustIndex = Math.floor(Math.random() * clustIndex);
+
+      // console.log(data[0]);
+      // console.log(data[0][currentIndex - 1]);
+
+      clustIndex--;
+
+      // And swap it with the current element.
+      [clusterIndex[clustIndex], clusterIndex[randClustIndex]] = [
+        clusterIndex[randClustIndex],
+        clusterIndex[clustIndex],
+      ];
+    }
+
+    let distIndex = distributionIndex.length,
+      randDistIndex;
+    while (distIndex != 0) {
+      // Pick a remaining element.
+      randDistIndex = Math.floor(Math.random() * distIndex);
+
+      // console.log(data[0]);
+      // console.log(data[0][currentIndex - 1]);
+
+      distIndex--;
+
+      // And swap it with the current element.
+      [distributionIndex[distIndex], distributionIndex[randDistIndex]] = [
+        distributionIndex[randDistIndex],
+        distributionIndex[distIndex],
+      ];
+    }
+    array = correlationIndex.concat(clusterIndex, distributionIndex);
+    console.log(array);
     return array;
   };
 
@@ -55,7 +128,8 @@ class Section extends React.Component {
       this.setState({ order: questionOrder.split(",") });
     } else {
       var array = [...Array(data[0].length).keys()];
-      const reorder = this.shuffle(array);
+      const reorder = this.shuffle(array, data);
+
       localStorage.setItem("questionOrder", reorder);
       this.setState({ order: reorder });
     }
@@ -134,7 +208,6 @@ class Section extends React.Component {
   };
 
   grabInformation = (data) => {
-    console.log("grab Information");
     const currSession = this.state.currSession;
     currSession.demographic = data;
     const sessionID = this.state.siteStructure.meta.sessionID;

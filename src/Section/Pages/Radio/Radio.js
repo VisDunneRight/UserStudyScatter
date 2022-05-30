@@ -48,7 +48,6 @@ const Radio = ({
     setAnswer(value);
   }
   function onkeyPress(event) {
-    console.log(event);
     if (event.charCode === 49) {
       this.onChange(0);
     } else if (event.charCode === 50) {
@@ -116,9 +115,8 @@ const Radio = ({
       document.removeEventListener("keydown", handleKeyPress);
     };
   }, [handleKeyPress]);
-
   var currQuestion = data[order[questionIndex]];
-  // console.log(questionIndex, currQuestion);
+
   var folderLoc =
     process.env.PUBLIC_URL + "/Chart" + currQuestion["chartId"] + "/";
 

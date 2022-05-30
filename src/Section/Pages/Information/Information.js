@@ -36,7 +36,6 @@ const RenderResults = ({ results }) => {
 };
 
 const TypeSwitch = ({ data }) => {
-  console.log(data);
   if (data.p) {
     return <MyRow>{data.p}</MyRow>;
   } else if (data.image) {
