@@ -21,6 +21,5 @@ for folder in subfolders:
         chart['algorithmImg'] = file
         chart['binnedImg'] = token[0]+"_Binned_None_None_" + token[4] + ".png"
         study.append(chart)
-print("hey")
 with open("./src/Data/studyData.json", "w") as outfile:
     json.dump(study, outfile, indent=2)
