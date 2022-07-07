@@ -67,7 +67,7 @@ const Radio = ({
         return (
           <h4>
             <b>Distribution: </b>The distribution of points in space for the
-            graph on the right is comparable the graph on the left, including
+            graph on the right is comparable to the graph on the left, including
             the visibility of manifolds and the relative density of each region.
           </h4>
         );
